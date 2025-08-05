@@ -12,8 +12,8 @@ from openai import *
 from typing import *
 
 # sys.path.append("G:\\DevUtilsBot\\MaiBot")
-from MaiBot.src.plugin_system import *
-from MaiBot.src.config.config import *
+from src.plugin_system import *
+from src.config.config import *
 from websockets import serve
 from apscheduler.schedulers.background import BackgroundScheduler
 
@@ -280,7 +280,7 @@ class CodeGenTool(BaseTool):
 
 def run_code(name,conn,args):
     client = docker.from_env()
-    res = client.containers.run('python:3.14.0rc1-bookworm',
+    res = client.containers.run('python:3',
                                 ['python', os.path.join('.', 'py_cache', pyfiles[name][1])] + args)
     conn.send(res)
     conn.close()
@@ -603,3 +603,4 @@ class BotUtilsPlugin(BasePlugin):
         else:
 
             return []
+
