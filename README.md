@@ -22,7 +22,7 @@ See the README_ENG.md for the english version.
 > 如果你不知道麦麦是什么，请看 [Mai-with-u/MaiBot](https://github.com/MaiM-with-u/MaiBot)  
 
 * 如何安装此插件
-> 在Release中可以下载到最新的插件，什么，你问我下完以后怎么安装插件?  
+> 在[Release](https://github.com/SteamedbunsMC/SomeUtils/releases)中可以下载到最新的插件，什么，你问我下完以后怎么安装插件?  
 > STFM !  
 > **See The ~~Fucking~~ Manual**: [麦麦文档](https://docs.mai-mai.org/manual/plugins/#%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8)  
 
@@ -59,9 +59,9 @@ See the README_ENG.md for the english version.
 
 * [**SEE THE FUCKING MANUAL**](https://docs.mai-mai.org/manual/plugins/#%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8)
 * **请注意，本插件会自动启用WSL,下载docker，安装docker并拉取python3.13 image**    
-* 最新版本可在 Releases 获取  
+* 最新版本可在 [Releases](https://github.com/SteamedbunsMC/SomeUtils/releases) 获取  
 * 如何~~爱我的电脑~~防止此插件自动下载安装docker和启用wsl  
-> 关闭coders功能 ~~我不需要！~~
+> 关闭coders功能 ~~我不需要！~~ 将配置文件中的 enable_coder_tools 设为 false  
 
 ------------------------
 
@@ -73,7 +73,7 @@ See the README_ENG.md for the english version.
 
 ### Links
 
-* [可乐酱的bilibili](https://space.bilibili.com/9116293/?spm_id_from=333.788.upinfo.head.click)  
-* [~~14元tokens大红包~~可乐的siliconflow邀请链接](https://cloud.siliconflow.cn/i/Dp1gWkNo)  
+* [可乐酱のbilibili](https://space.bilibili.com/9116293/?spm_id_from=333.788.upinfo.head.click)  
+* [~~14元tokens大红包~~可乐のsiliconflow邀请链接](https://cloud.siliconflow.cn/i/Dp1gWkNo)  
 * [麦麦の家](https://github.com/MaiM-with-u/MaiBot)  
 * [pluginsのSTFM通用链接](https://docs.mai-mai.org/manual/plugins/#%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8)  
