@@ -11,7 +11,7 @@ import json
 from openai import *
 from typing import *
 
-sys.path.append("G:\\DevUtilsBot\\MaiBot")
+# sys.path.append("G:\\DevUtilsBot\\MaiBot")
 from MaiBot.src.plugin_system import *
 from MaiBot.src.config.config import *
 from websockets import serve
@@ -601,4 +601,5 @@ class BotUtilsPlugin(BasePlugin):
                 (MuteAction.get_action_info(),MuteAction),
                 (SignAction.get_action_info(),SignAction),]
         else:
+
             return []
