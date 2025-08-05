@@ -1,0 +1,14 @@
+{
+  "manifest_version": 0.1,
+  "name": "QQ_Bot_Some_Utils",
+  "version": "0.1.0",
+  "description": "A simple qq group MaiMBot utils plugin.A piece of mess.",
+  "author": {
+    "name": "RandomDeveloper",
+    "url": "rand0mk4cas@outlook.com"
+  },
+  "license": "MIT License",
+  "host_application": {
+    "min_version": "0.8.0"
+  }
+}
