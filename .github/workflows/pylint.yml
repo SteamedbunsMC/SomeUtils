@@ -17,7 +17,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pylint ruff
+        pip install pylint ruff pipreqs
+        pipreqs ./ --encoding=utf-8
         pip install -r ./requirments.txt
     - name: Analysing the code with pylint and ruff
       run: |
