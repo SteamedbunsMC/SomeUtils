@@ -318,6 +318,11 @@ class CodeRunTool(BaseTool):
     available_for_llm = enable_code_tool  # 是否对LLM可用
 
     async def execute(self, function_args: Dict[str, Any]):
+        if not initialized:
+            return {
+                "name": self.name,
+                "content": "Execution failed.The plugin hasnt finished initialization yet."
+            }
         parent_conn, child_conn = multiprocessing.Pipe()
         args = function_args.get("args").split(' ')
         proc = multiprocessing.Process(target=run_code,args=(function_args.get("name"),child_conn,args,))
@@ -603,4 +608,5 @@ class BotUtilsPlugin(BasePlugin):
         else:
 
             return []
+
 
