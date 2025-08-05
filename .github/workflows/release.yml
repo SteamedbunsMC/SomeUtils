@@ -16,7 +16,7 @@ jobs:
       with:
         type: 'zip'
         filename: 'release.zip'
-        exclusions: '*.git* /*node_modules/* .editorconfig'
+        exclusions: '*.git* /*node_modules/* .editorconfig /.github/workflows/*'
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
