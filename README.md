@@ -22,7 +22,7 @@ See the README_ENG.md (TODO) for the english version.
 > 如果你不知道麦麦是什么，请看 [Mai-with-u/MaiBot](https://github.com/MaiM-with-u/MaiBot)  
 
 * 如何安装此插件
-> 在[Release](https://github.com/SteamedbunsMC/SomeUtils/releases)中可以下载到最新的插件，什么，你问我下完以后怎么安装插件?  
+> 将插件仓库clone到本地即可，什么，你问我下完以后怎么安装插件?  
 > STFM !  
 > **See The ~~Fucking~~ Manual**: [麦麦文档](https://docs.mai-mai.org/manual/plugins/#%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8)  
 
