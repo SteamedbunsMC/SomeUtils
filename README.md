@@ -22,7 +22,7 @@ See the README_ENG.md (TODO) for the english version.
 > 如果你不知道麦麦是什么，请看 [Mai-with-u/MaiBot](https://github.com/MaiM-with-u/MaiBot)  
 
 * 如何安装此插件
-> 将插件仓库clone到本地即可，什么，你问我下完以后怎么安装插件?  
+> 将插件仓库clone到本地**并删除所有.png文件**即可，什么，你问我下完以后怎么安装插件?  
 > STFM !  
 > **See The ~~Fucking~~ Manual**: [麦麦文档](https://docs.mai-mai.org/manual/plugins/#%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8)  
 
@@ -67,7 +67,19 @@ See the README_ENG.md (TODO) for the english version.
 
 ### Using & Installation examples
 
-* 我马上做
+* 未完工，主要原因是腾讯服务器的构思网络  
+
+  首先，安装MaiBot并安装插件，这个不必多说  
+  ![安装MaiBot](https://github.com/SteamedbunsMC/SomeUtils/blob/main/readme_image_install_maibot.png  "1")  
+  如果GitHub访问速度不理想的可以挂[加速器](steampp.net)  
+  ![加速访问](https://github.com/SteamedbunsMC/SomeUtils/blob/main/readme_image_git_clone_boost.png "2")  
+  ![Steam++](https://github.com/SteamedbunsMC/SomeUtils/blob/main/readme_image_watttollkit.png "3")  
+  下载下来后请**删除SomeUtils目录中的所有png文件！**  
+  接着，先运行MaiBot Core，不用启动适配器  
+  ![Run Core](https://github.com/SteamedbunsMC/SomeUtils/blob/main/readme_image_run_bot.png "4")  
+  不出意外的话，bot.py会自行退出，此时进入SomeUtils文件夹编辑配置文件即可  
+  修改好配置文件，再次启动MaiMBot，此时请将适配器一并启动，如果你启用了CodersTool，会询问是否要安装巴拉巴拉巴拉，直接回车即可**(默认安装!)**
+  接着就可以正常使用MaiBot了ヾ(≧▽≦*)o
 
 ------------------------
 
