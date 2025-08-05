@@ -19,7 +19,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pylint ruff pipreqs
         pipreqs ./ --encoding=utf-8
-        pip install -r ./requirments.txt
+        pip install -r ./requirements.txt
     - name: Analysing the code with pylint and ruff
       run: |
         pylint $(git ls-files '*.py')
